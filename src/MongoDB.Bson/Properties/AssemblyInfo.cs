@@ -30,4 +30,4 @@ using System.Runtime.InteropServices;
 [assembly: CLSCompliant(true)]
 [assembly: ComVisible(false)]
 
-[assembly: InternalsVisibleTo("MongoDB.Bson.Tests")]
+[assembly: InternalsVisibleTo("MongoDB.Bson.Tests,PublicKey=0024000004800000940000000602000000240000525341310004000001000100fd8d09cb9f86ed161573c6d4314d872473d59428319ef856630ed51d8b6085bc9c5e0a8a9a692a8004d7495d2fe6ed5d20a0b46589a9149dd063a2cd0d6fd8627404bcac31599806381446e086ae718a4024240a975adb19bdcaebce4d961936b1baeaedce900ff0233c3bd65e9975d07a2e8affc9cdc65ae81fb2ebfab93cdf")]

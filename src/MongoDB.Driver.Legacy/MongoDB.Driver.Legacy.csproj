@@ -34,6 +34,12 @@
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Release\MongoDB.Driver.Legacy.XML</DocumentationFile>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>MongoDb.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -207,6 +213,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="MongoDb.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

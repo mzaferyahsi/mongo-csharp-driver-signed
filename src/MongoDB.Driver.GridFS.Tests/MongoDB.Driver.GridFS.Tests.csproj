@@ -30,6 +30,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>MongoDb.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="FluentAssertions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
       <HintPath>..\packages\FluentAssertions.3.5.0\lib\net45\FluentAssertions.dll</HintPath>
@@ -86,6 +92,7 @@
     <Compile Include="Specifications\gridfs\GridFSTestRunner.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="MongoDb.pfx" />
     <None Include="packages.config" />
     <EmbeddedResource Include="Specifications\gridfs\tests\download.json" />
     <EmbeddedResource Include="Specifications\gridfs\tests\delete.json" />
